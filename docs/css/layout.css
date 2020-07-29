@@ -1,0 +1,15 @@
+.site {
+   max-width: var(--layout-width, 60em);
+   margin: 0 auto;
+}
+
+.site-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.site-footer {
+   background-color: rgb(114, 94, 87);
+   text-align: center;
+}
