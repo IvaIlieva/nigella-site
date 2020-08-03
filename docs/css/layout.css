@@ -13,3 +13,13 @@
    background-color: rgb(114, 94, 87);
    text-align: center;
 }
+
+.home-page {
+   display: flex;
+   flex-direction: row;
+}
+
+/* .home-page ul {
+   flex-grow: 50%;
+
+} */
