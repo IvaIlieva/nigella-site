@@ -1,3 +1,8 @@
+body {
+   background: rgb(228, 212, 193);
+
+}
+
 .site {
    max-width: var(--layout-width, 60em);
    margin: 0 auto;
@@ -14,12 +19,25 @@
    text-align: center;
 }
 
-.home-page {
+.section-duo {
    display: flex;
-   flex-direction: row;
 }
 
-/* .home-page ul {
-   flex-grow: 50%;
+.section-duo .content,
+.section-duo .media {
+    width: 50%;
+}
 
-} */
+.section-duo .media img {
+    width: 100%;
+    height: auto;
+}
+
+.contacts {
+   padding-left: 0.5em;
+   background: rgb(114, 94, 87);
+   border-radius: 1em;
+   padding: 0.5em;
+   color: white;
+   margin-left: 0.5em;
+}

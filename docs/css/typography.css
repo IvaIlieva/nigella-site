@@ -34,6 +34,24 @@ h4 {font-size: 1.4em;}
 h5 {font-size: 1.2em;}
 h6 {font-size: 1.0em;}
 
+.page-title {
+    margin-bottom: 0.5em;
+}
+
+.site-branding h1 {
+    padding-bottom: 0;
+}
+
+.site-branding h1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contacts {
+    text-decoration: none;
+}
+
 blockquote {
     padding: 0 2.5em;
     border-left: 2px solid #000;

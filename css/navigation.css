@@ -30,10 +30,12 @@
 .nav-header a {
     background: #eee;
     color: #333;
+    border-radius: 1em;
 }
 
 .nav-header a:hover {
     background:  rgb(114, 94, 87);
+    color: white;
 }
 
 .nav-footer a,
